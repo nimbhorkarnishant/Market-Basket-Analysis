@@ -1,5 +1,5 @@
 
-#--------------------Food Recommendation System for a Cafe -------------------------------
+#--------------------Market Basket Analysis-------------------------------
 
 #Arules - to provide frequent itemset and association rules
 #install.packages("arules")
@@ -13,7 +13,7 @@ library(dplyr)
 library(arulesViz)
 
 #read and load data set
-Bakery = read.csv("C:/Users/Nishant Nimbhorkar/Desktop/BreadBasket_DMS.csv")
+Bakery = read.csv("./BreadBasket_DMS.csv")
 Bakery
 str(Bakery)
 glimpse(Bakery)
